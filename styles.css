@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff9fc;
+  color: #444;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ce7aa4;
+  margin-bottom: 2rem;
+}
+
+#barra-progreso {
+  width: 90%;
+  margin: auto;
+  background-color: #f3e1ec;
+  border-radius: 30px;
+  height: 25px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border: 2px solid #f7cce5;
+}
+
+#progreso-interno {
+  height: 100%;
+  width: 0%;
+  background-color: #f4a4c6;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  line-height: 25px;
+  padding-right: 10px;
+  transition: width 0.4s ease-in-out;
+}
+
+.ciclo {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: #d18dbb;
+  margin-bottom: 1rem;
+}
+
+.materias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.materia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  height: 110px;
+  background-color: #fce3ec;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(200, 100, 150, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.materia.locked {
+  background-color: #faeff4;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.materia.completed {
+  background-color: #f8c6d8;
+}
+
+.materia i.fa-brain {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #c77eac;
+}
+
+.nombre {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.credito {
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
+  font-size: 13px;
+  color: #a4659e;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.credito i.fa-book {
+  font-size: 12px;
+}
+
+.materia.completed .nombre {
+  text-decoration: line-through;
+  opacity: 1;
+}
