@@ -1,1 +1,1 @@
-# Malla-2.0
+# Malla
