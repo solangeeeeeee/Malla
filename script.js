@@ -47,7 +47,7 @@ const materias = [
   { nombre: "Evaluación y diagnóstico psicológico", ciclo: 7, creditos: 3, desbloquea: ["Orientación vocacional y profesional", "Modelo psicoterapéutico familiar sistem", "Integrity and Professional Ethical"] },
   { nombre: "Comportamiento y cultura organizacional", ciclo: 7, creditos: 3, desbloquea: [] },
   { nombre: "Psicología clínica y de la salud", ciclo: 8, creditos: 4, desbloquea: [] },
-  { nombre: "Programa de internado aplicado a psicología", ciclo: 8, creditos: 4, desbloquea: [] },
+  { nombre: "Programas de intervención aplicados a la psicología", ciclo: 8, creditos: 4, desbloquea: [] },
   { nombre: "Orientación vocacional y profesional", ciclo: 8, creditos: 2, desbloquea: [] },
   { nombre: "Modelo psicoterapéutico familiar sistem", ciclo: 8, creditos: 3, desbloquea: [] },
   { nombre: "Metodología de la investigación para psicología", ciclo: 8, creditos: 3, desbloquea: ["Seminario de tesis"] },
